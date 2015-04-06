@@ -1,0 +1,1 @@
+- IScreenView interface-t megnezni miert nem mukodik
