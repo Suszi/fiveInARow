@@ -8,12 +8,13 @@ package view.screen
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
+	import interfaces.IScreenView;
 	
 	/**
 	 * ...
 	 * @author Tamás Schuszter
 	 */
-	public class StartScreenView extends Sprite
+	public class StartScreenView extends Sprite implements IScreenView
 	{
 		public static const MARGIN:int = 10;
 		

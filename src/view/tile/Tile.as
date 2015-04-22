@@ -2,6 +2,7 @@ package view.tile
 {
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
+	import interfaces.ITile;
 	
 	/**
 	 * ...

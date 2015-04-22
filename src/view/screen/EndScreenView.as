@@ -8,12 +8,13 @@ package view.screen
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
+	import interfaces.IScreenView;
 	
 	/**
 	 * ...
 	 * @author Tamás Schuszter
 	 */
-	public class EndScreenView extends MovieClip
+	public class EndScreenView extends MovieClip implements IScreenView
 	{
 		private var _winnerPlayerText:TextField;
 		private var _restartGameButton:SimpleButton;

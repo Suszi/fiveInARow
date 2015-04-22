@@ -9,13 +9,14 @@ package view.screen
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
+	import interfaces.IScreenView;
 	import vo.BackgroundVO;
 	
 	/**
 	 * ...
 	 * @author Tamás Schuszter
 	 */
-	public class GameScreenView extends Sprite
+	public class GameScreenView extends Sprite implements IScreenView
 	{
 		private var _background:Sprite;
 		private var _backgroundVO:BackgroundVO;
